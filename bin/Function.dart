@@ -1,16 +1,18 @@
 void main(){
-  hello();
-  hitungluas();
+    hello();
+    hello();
+    hello();
+    HitungLuas();
 }
 
 hello(){
-    print("Selamat Datang Di Kelas Coding");
-    print("Kita Sedang Belajar Dart");
+    print('Selamat Datang Di Kelas Coding');
+    print("Saya Sedang Belajar Kotlin Di Kelas Coding");
 }
 
-hitungluas(){
-  var panjang = 20;
-  var tinggi = 15;
-  var luas = panjang*tinggi;
-  print(luas);
+HitungLuas(){
+    var panjang = 20;
+    var lebar = 22.5;
+    var luas = panjang*lebar;
+    print(luas);
 }
